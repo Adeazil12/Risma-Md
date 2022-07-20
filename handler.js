@@ -36,8 +36,8 @@ module.exports = {
         global.colong1 = 'Ciss 📸'
         global.colong2 = 'ModsBOT'
         global.kontak2 = [
-        ['6285850539404', 'Ademods', '𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑩𝒐𝒕', 'https://youtube.com/channel/UCW7NYBQ', true],
-        ['6285713137903', await this.getName('6285713137903@s.whatsapp.net'), '𝑷𝒂𝒓𝒕𝒏𝒆𝒓 Ademods', 'https://youtube.com/channelNYBQ', true], 
+        ['628980330708', 'Ademods', '𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑩𝒐𝒕', 'https://youtube.com/channel/UCW7NYBQ', true],
+        ['628980330708', await this.getName('628980330708@s.whatsapp.net'), '𝑷𝒂𝒓𝒕𝒏𝒆𝒓 Ademods', 'https://youtube.com/channelNYBQ', true], 
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
