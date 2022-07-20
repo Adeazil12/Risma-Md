@@ -28,7 +28,7 @@ const defaultMenu = {
 ┆⬡ *Database* : %rtotalreg dari %totalreg
 ┆⬡ *Memory Used* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 ┆⬡ *Instagram* :
-┆⬡ https://instagram.com/oscarbotz_
+┆⬡ https://instagram.com/ademods_
 ┗─────────────────⬣
 %readmore`.trim(),
   header: '┏━┈┈『 %category 』┈┈⬣',
@@ -66,7 +66,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'absen': 'Absen',
     'quran': 'Al Qur\'an',
     'audio': 'Pengubah Suara',
-    'jadibot': 'Jadi Bot',
+    'jadimods': 'Jadi Bot',
     'info': 'Info',
     '': 'Tanpa Kategori',
   }
@@ -123,8 +123,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   if (teks == 'audio') tags = {
     'audio': 'Pengubah Suara'
   }
-  if (teks == 'jadibot') tags = {
-    'jadibot': 'Jadi Bot'
+  if (teks == 'jadimods') tags = {
+    'jadimods': 'Jadi Bot'
   }
   if (teks == 'info') tags = {
     'info': 'Info'
